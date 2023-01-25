@@ -3,43 +3,41 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    margin: 0;
     font-family: 'Poppins', sans-serif;
-    height: 100%;
-    width: 100%;
+    margin: 0;
 }
-.section-1{
+/* .section-1{
     width: 1200px;
-    height: 646px;
+    height: 500px;
     background-color: rgb(94, 210, 245);
     border-radius: 5px;
     position: relative;
     left: 50px;
     top: 50px;
-}
-.football{
+} */
+/* .football{
     color: aliceblue;
     padding-left: 35px;
-}
-.football .section-title{
+} */
+/* .football .section-title{
     font-size:25px;
-    margin: 0;
-}
+    margin: 0; */
+/* }
 .football a{
     text-decoration: none;
-    /* color: aliceblue; */
+    color: aliceblue;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
 }
 .home-div{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+    grid-template-columns: repeat(2, 1fr); */
+/* }
 .home-div .football-img img{
     width: 800px;
-    height: 550px;
-}
+    height: 500px;
+} */
 /* first section end */
 /* second section start */
 .play-football{
@@ -109,14 +107,25 @@ body{
     border-radius: 5px;
 }
 /* second section end */
-/* .football-field .play-detail .icon{
-    padding: 7px;
-} */
-/* third section start
-.play-football2{
-    
-    margin-top: 85px;
-    left: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
+/* footer section start */
+footer{
+    width: 1440px;
+    height: 300px;
+    background-color: rgb(94, 210, 245) ;
+    position: relative;
+    top: 130px;
+}
+footer h1{
+    text-align: center;
+}
+.footer-item{
+    text-align: center;
+}
+.footer-item a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.social-icon img{
+    width: 50px;
+}
