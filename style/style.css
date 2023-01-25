@@ -1,0 +1,115 @@
+/* google fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+main{
+   justify-content: center;
+}
+.section-1{
+    width: 1321px;
+    height: 646px;
+    background-color: rgb(94, 210, 245);
+    border-radius: 5px;
+    position: relative;
+    width: 1321px;
+    height: 550px;
+    left: 50px;
+    top: 50px;
+}
+.football{
+    color: aliceblue;
+    padding-left: 35px;
+}
+.football .section-title{
+    font-size:25px;
+    margin: 0;
+}
+.football a{
+    text-decoration: none;
+    /* color: aliceblue; */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.home-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.home-div .football-img img{
+    width: 800px;
+    height: 550px;
+}
+/* first section end */
+.play-football{
+    position: relative;
+    top: 130px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.menu-area{
+    width: 312px;
+    height: 312px;
+    background-color: rgb(94, 210, 245);
+    border-radius: 5px;
+}
+.menus{
+    padding: 50px;
+}
+
+.menus .menu a{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: rgb(94, 210, 245);
+    border-radius: 5px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: grid;
+    margin: 10px;
+}
+.menu1 a{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: rgb(94, 210, 245);
+    border-radius: 5px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: grid;
+    margin: 10px;
+}
+.football-field{
+    width: 312px;
+    height: 362px ;
+    border: rgb(204, 195, 195) solid 1px;
+    border-radius: 5px;
+}
+
+.football-field img{
+    width: 312px;
+    border-radius: 5px;
+}
+.football-field .play-detail{
+    padding-left: 15px;
+    margin: 20px;
+}
+.football-field .play-detail a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    border: rgb(94, 210, 245) solid 4px;
+    padding: 7px;
+    border-radius: 5px;
+}
+/* .football-field .play-detail .icon{
+    padding: 7px;
+} */
