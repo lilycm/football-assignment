@@ -8,17 +8,12 @@ body{
     height: 100%;
     width: 100%;
 }
-main{
-   justify-content: center;
-}
 .section-1{
-    width: 1321px;
+    width: 1200px;
     height: 646px;
     background-color: rgb(94, 210, 245);
     border-radius: 5px;
     position: relative;
-    width: 1321px;
-    height: 550px;
     left: 50px;
     top: 50px;
 }
@@ -46,6 +41,7 @@ main{
     height: 550px;
 }
 /* first section end */
+/* second section start */
 .play-football{
     position: relative;
     top: 130px;
@@ -58,6 +54,7 @@ main{
     height: 312px;
     background-color: rgb(94, 210, 245);
     border-radius: 5px;
+    margin: 15px;
 }
 .menus{
     padding: 50px;
@@ -92,6 +89,7 @@ main{
     height: 362px ;
     border: rgb(204, 195, 195) solid 1px;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .football-field img{
@@ -110,6 +108,15 @@ main{
     padding: 7px;
     border-radius: 5px;
 }
+/* second section end */
 /* .football-field .play-detail .icon{
     padding: 7px;
+} */
+/* third section start
+.play-football2{
+    
+    margin-top: 85px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 } */
